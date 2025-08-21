@@ -1,0 +1,164 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Quicksand", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+h1{
+    color: white;
+    width: 100%;
+}
+p{
+    width: 100%;
+    text-align: justify;
+}
+.profile header {
+    /* width: 50%; */
+    object-fit: cover;
+    object-position: center;
+}
+.profile header h2{
+    text-align: center;
+
+}
+h2,
+h3 {
+    color: rgb(101, 160, 212);
+    
+}
+footer{
+    padding: 20px;
+    color: white;
+    background-color: rgb(101, 160, 212);
+    text-align: center;
+    font-weight: bold;
+}
+
+nav a{
+    font-size: 14px;
+    font-weight: 600;
+    text-decoration: none;
+    color: white;
+
+}
+nav a:hover {
+    font-weight: bold;
+}
+.profile header {
+    text-align: center;
+}
+.featured-image {
+    width: 50%;
+    max-height: 300px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.card {
+    
+    border-radius: 5px;
+    padding-inline: 20rem;
+    padding: 5px;
+}
+.jumbotron {
+    font-size: 20px;
+    padding: 75px;
+    background-color: rgb(101, 160, 212);
+    text-align: center  ;
+    color: white                                                                                                                                    ;
+}
+    
+
+nav ul {
+    padding-inline: 4rem;
+    display: flex;
+    gap: 5rem;
+}
+nav li{
+    display: inline;
+    list-style-type: none;
+    margin-right: 20px;
+}
+nav {
+    background-color: rgb(67, 137, 197);
+    padding: 20px;
+    padding-inline: 5.5rem;
+}
+.navbar-sticky{
+	position: -webkit-sticky;
+	position: sticky;
+	top: 0;
+    overflow: auto;
+}
+main {
+    padding: 15px;
+    display: flex;
+    gap: 1.5rem;
+}
+.column-parent{
+    display: flex;
+    justify-content: center;
+    width: 100% !important;
+}
+#content {
+    flex: 5;
+    display: flex;
+    flex-flow: column nowrap;
+}
+aside {
+    flex: 2;
+}
+.img_figure{
+    width: 100%;
+    margin: 0 auto;
+}
+aside {
+    float: right !important;
+    width: 100%;
+    background-color: white !important;
+    padding-left: 20px;
+}
+@media  screen and (max-width: 1200px) {
+    main{
+        flex-flow: column nowrap;
+    }
+
+    main aside{
+        align-self: center;
+    }
+}
+.p {
+    width: 70%;
+    
+}
+p {
+    font-size: 15px;
+}
+
+
+#panitia_sembilan {
+    border-image: auto;
+}
+
+section {
+    text-align: center;
+    font-weight: bold;
+}
+    
+
+
+@media  screen and (max-width: 768px) {
+    nav ul {        
+        justify-content: center;
+    }
+
+    main aside {
+        align-self: stretch;
+    }
+}
+
+
+
